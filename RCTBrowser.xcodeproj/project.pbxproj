@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2791E7F61BB3C10A00FD32EA /* libRCTBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791E7EA1BB3C10A00FD32EA /* libRCTBrowser.a */; };
+		2791E8321BB3C5FF00FD32EA /* TOActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 2791E8281BB3C5FF00FD32EA /* TOActivityChrome.m */; };
+		2791E8331BB3C5FF00FD32EA /* TOActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = 2791E82A1BB3C5FF00FD32EA /* TOActivitySafari.m */; };
+		2791E8341BB3C5FF00FD32EA /* TOWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2791E82C1BB3C5FF00FD32EA /* TOWebViewController.m */; };
+		2791E8351BB3C5FF00FD32EA /* UIImage+TOWebViewControllerIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 2791E82E1BB3C5FF00FD32EA /* UIImage+TOWebViewControllerIcons.m */; };
+		2791E8381BB3C60D00FD32EA /* RCTBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = 2791E8361BB3C60D00FD32EA /* RCTBrowser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2791E7F71BB3C10A00FD32EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2791E7E21BB3C10A00FD32EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2791E7E91BB3C10A00FD32EA;
+			remoteInfo = RCTBrowser;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2791E7E81BB3C10A00FD32EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2791E7EA1BB3C10A00FD32EA /* libRCTBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTBrowser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2791E7F51BB3C10A00FD32EA /* RCTBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2791E81F1BB3C5FF00FD32EA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		2791E8201BB3C5FF00FD32EA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		2791E8211BB3C5FF00FD32EA /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		2791E8221BB3C5FF00FD32EA /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		2791E8231BB3C5FF00FD32EA /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		2791E8241BB3C5FF00FD32EA /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		2791E8251BB3C5FF00FD32EA /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		2791E8261BB3C5FF00FD32EA /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		2791E8271BB3C5FF00FD32EA /* TOActivityChrome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityChrome.h; sourceTree = "<group>"; };
+		2791E8281BB3C5FF00FD32EA /* TOActivityChrome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityChrome.m; sourceTree = "<group>"; };
+		2791E8291BB3C5FF00FD32EA /* TOActivitySafari.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivitySafari.h; sourceTree = "<group>"; };
+		2791E82A1BB3C5FF00FD32EA /* TOActivitySafari.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivitySafari.m; sourceTree = "<group>"; };
+		2791E82B1BB3C5FF00FD32EA /* TOWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOWebViewController.h; sourceTree = "<group>"; };
+		2791E82C1BB3C5FF00FD32EA /* TOWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOWebViewController.m; sourceTree = "<group>"; };
+		2791E82D1BB3C5FF00FD32EA /* UIImage+TOWebViewControllerIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TOWebViewControllerIcons.h"; sourceTree = "<group>"; };
+		2791E82E1BB3C5FF00FD32EA /* UIImage+TOWebViewControllerIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TOWebViewControllerIcons.m"; sourceTree = "<group>"; };
+		2791E82F1BB3C5FF00FD32EA /* uk */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = uk; path = uk.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		2791E8301BB3C5FF00FD32EA /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/TOWebViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		2791E8311BB3C5FF00FD32EA /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/TOWebViewControllerLocalizable.strings"; sourceTree = "<group>"; };
+		2791E8361BB3C60D00FD32EA /* RCTBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTBrowser.m; sourceTree = "<group>"; };
+		2791E8371BB3C60D00FD32EA /* RCTBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTBrowser.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2791E7E71BB3C10A00FD32EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2791E7F21BB3C10A00FD32EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2791E7F61BB3C10A00FD32EA /* libRCTBrowser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2791E7E11BB3C10A00FD32EA = {
+			isa = PBXGroup;
+			children = (
+				2791E8371BB3C60D00FD32EA /* RCTBrowser.h */,
+				2791E8361BB3C60D00FD32EA /* RCTBrowser.m */,
+				2791E81D1BB3C5FF00FD32EA /* TOWebViewController */,
+				2791E7EB1BB3C10A00FD32EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2791E7EB1BB3C10A00FD32EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2791E7EA1BB3C10A00FD32EA /* libRCTBrowser.a */,
+				2791E7F51BB3C10A00FD32EA /* RCTBrowserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2791E81D1BB3C5FF00FD32EA /* TOWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2791E81E1BB3C5FF00FD32EA /* TOWebViewControllerLocalizable.strings */,
+				2791E8271BB3C5FF00FD32EA /* TOActivityChrome.h */,
+				2791E8281BB3C5FF00FD32EA /* TOActivityChrome.m */,
+				2791E8291BB3C5FF00FD32EA /* TOActivitySafari.h */,
+				2791E82A1BB3C5FF00FD32EA /* TOActivitySafari.m */,
+				2791E82B1BB3C5FF00FD32EA /* TOWebViewController.h */,
+				2791E82C1BB3C5FF00FD32EA /* TOWebViewController.m */,
+				2791E82D1BB3C5FF00FD32EA /* UIImage+TOWebViewControllerIcons.h */,
+				2791E82E1BB3C5FF00FD32EA /* UIImage+TOWebViewControllerIcons.m */,
+			);
+			name = TOWebViewController;
+			path = TOWebViewController/TOWebViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2791E7E91BB3C10A00FD32EA /* RCTBrowser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2791E7FE1BB3C10A00FD32EA /* Build configuration list for PBXNativeTarget "RCTBrowser" */;
+			buildPhases = (
+				2791E7E61BB3C10A00FD32EA /* Sources */,
+				2791E7E71BB3C10A00FD32EA /* Frameworks */,
+				2791E7E81BB3C10A00FD32EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTBrowser;
+			productName = RCTBrowser;
+			productReference = 2791E7EA1BB3C10A00FD32EA /* libRCTBrowser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2791E7F41BB3C10A00FD32EA /* RCTBrowserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2791E8011BB3C10A00FD32EA /* Build configuration list for PBXNativeTarget "RCTBrowserTests" */;
+			buildPhases = (
+				2791E7F11BB3C10A00FD32EA /* Sources */,
+				2791E7F21BB3C10A00FD32EA /* Frameworks */,
+				2791E7F31BB3C10A00FD32EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2791E7F81BB3C10A00FD32EA /* PBXTargetDependency */,
+			);
+			name = RCTBrowserTests;
+			productName = RCTBrowserTests;
+			productReference = 2791E7F51BB3C10A00FD32EA /* RCTBrowserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2791E7E21BB3C10A00FD32EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = PrestoDoctor;
+				TargetAttributes = {
+					2791E7E91BB3C10A00FD32EA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2791E7F41BB3C10A00FD32EA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 2791E7E51BB3C10A00FD32EA /* Build configuration list for PBXProject "RCTBrowser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				es,
+				fr,
+				ja,
+				ko,
+				pl,
+				ru,
+				uk,
+				"zh-Hans",
+				"zh-Hant",
+			);
+			mainGroup = 2791E7E11BB3C10A00FD32EA;
+			productRefGroup = 2791E7EB1BB3C10A00FD32EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2791E7E91BB3C10A00FD32EA /* RCTBrowser */,
+				2791E7F41BB3C10A00FD32EA /* RCTBrowserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2791E7F31BB3C10A00FD32EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2791E7E61BB3C10A00FD32EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2791E8341BB3C5FF00FD32EA /* TOWebViewController.m in Sources */,
+				2791E8351BB3C5FF00FD32EA /* UIImage+TOWebViewControllerIcons.m in Sources */,
+				2791E8321BB3C5FF00FD32EA /* TOActivityChrome.m in Sources */,
+				2791E8381BB3C60D00FD32EA /* RCTBrowser.m in Sources */,
+				2791E8331BB3C5FF00FD32EA /* TOActivitySafari.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2791E7F11BB3C10A00FD32EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2791E7F81BB3C10A00FD32EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2791E7E91BB3C10A00FD32EA /* RCTBrowser */;
+			targetProxy = 2791E7F71BB3C10A00FD32EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2791E81E1BB3C5FF00FD32EA /* TOWebViewControllerLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2791E81F1BB3C5FF00FD32EA /* de */,
+				2791E8201BB3C5FF00FD32EA /* en */,
+				2791E8211BB3C5FF00FD32EA /* es */,
+				2791E8221BB3C5FF00FD32EA /* fr */,
+				2791E8231BB3C5FF00FD32EA /* ja */,
+				2791E8241BB3C5FF00FD32EA /* ko */,
+				2791E8251BB3C5FF00FD32EA /* pl */,
+				2791E8261BB3C5FF00FD32EA /* ru */,
+				2791E82F1BB3C5FF00FD32EA /* uk */,
+				2791E8301BB3C5FF00FD32EA /* zh-Hans */,
+				2791E8311BB3C5FF00FD32EA /* zh-Hant */,
+			);
+			name = TOWebViewControllerLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2791E7FC1BB3C10A00FD32EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2791E7FD1BB3C10A00FD32EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2791E7FF1BB3C10A00FD32EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../../node_modules/react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2791E8001BB3C10A00FD32EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../../node_modules/react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2791E8021BB3C10A00FD32EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RCTBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2791E8031BB3C10A00FD32EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RCTBrowserTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2791E7E51BB3C10A00FD32EA /* Build configuration list for PBXProject "RCTBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2791E7FC1BB3C10A00FD32EA /* Debug */,
+				2791E7FD1BB3C10A00FD32EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2791E7FE1BB3C10A00FD32EA /* Build configuration list for PBXNativeTarget "RCTBrowser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2791E7FF1BB3C10A00FD32EA /* Debug */,
+				2791E8001BB3C10A00FD32EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2791E8011BB3C10A00FD32EA /* Build configuration list for PBXNativeTarget "RCTBrowserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2791E8021BB3C10A00FD32EA /* Debug */,
+				2791E8031BB3C10A00FD32EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2791E7E21BB3C10A00FD32EA /* Project object */;
+}
