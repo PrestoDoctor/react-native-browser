@@ -1,0 +1,3 @@
+[submodule "TOWebViewController"]
+	path = TOWebViewController
+	url = git@github.com:TimOliver/TOWebViewController.git
