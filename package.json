@@ -1,6 +1,6 @@
 {
   "name": "react-native-browser",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Full-featured web browser module for React Native apps, based on TOWebViewController",
   "main": "index.ios.js",
   "scripts": {
