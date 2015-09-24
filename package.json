@@ -1,0 +1,27 @@
+{
+  "name": "react-native-browser",
+  "version": "0.5.0",
+  "description": "Full-featured web browser module for React Native apps, based on TOWebViewController",
+  "main": "index.ios.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrestoDoctor/react-native-browser.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "web",
+    "browser",
+    "webview",
+    "TOWebViewController"
+  ],
+  "author": "Kyle Powers <kylepowers@gmail.com> (http://kylepowers.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrestoDoctor/react-native-browser/issues"
+  },
+  "homepage": "https://github.com/PrestoDoctor/react-native-browser#readme"
+}
