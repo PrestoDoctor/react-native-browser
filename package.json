@@ -1,6 +1,6 @@
 {
   "name": "react-native-browser",
-  "version": "0.5.2",
+  "version": "0.6.0",
   "description": "Full-featured web browser module for React Native apps, based on TOWebViewController",
   "main": "index.ios.js",
   "scripts": {
@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/PrestoDoctor/react-native-browser#readme",
   "peerDependencies": {
-    "react-native": ">=0.5"
+    "react-native": ">=0.14"
   }
 }
