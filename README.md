@@ -28,13 +28,15 @@ Browser.open('https://google.com/');
 // OR pass in options to customize
 Browser.open('http://google.com/', {
                     showUrlWhileLoading: true,
+                    loadingBarTintColor: processColor('#d64bbd'),
                     navigationButtonsHidden: false,
                     showActionButton: true,
                     showDoneButton: true,
                     doneButtonTitle: 'Done',
                     showPageTitles: true,
                     disableContextualPopupMenu: false,
-                    hideWebViewBoundaries: false
+                    hideWebViewBoundaries: false,
+                    buttonTintColor: processColor('#d64bbd')
                   });
 ```
 
@@ -43,7 +45,6 @@ Browser.open('http://google.com/', {
 ### TODOs
 
 - [ ] Finish adding all customization options / support callbacks
-- [ ] Custom tint color for navigation bar on modal
 - [ ] Accessors for webview & url requests
 - [ ] Programatic control of loading pages, closing the view, etc
 
