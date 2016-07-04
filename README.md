@@ -15,7 +15,7 @@ A full-featured web browser module for React Native apps, based on the awesome [
 
 Example:
 
-```
+```js
 import {
   processColor, // make sure to add processColor to your imports if you want to use hex colors as shown below
 } from 'react-native';
