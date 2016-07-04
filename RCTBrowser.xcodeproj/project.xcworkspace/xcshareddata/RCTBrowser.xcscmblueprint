@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DDFBC8B61339B06342A6A8CCD47BA1E522C2C2B8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "47CC29125B073564CE045285434056EA82A9006C" : 0,
+    "DDFBC8B61339B06342A6A8CCD47BA1E522C2C2B8" : 0,
+    "AAE062EBF8472505FDB90B44DEE782F629380A0F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E578413B-6201-4FCE-AC14-D8FEC60D7D26",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "47CC29125B073564CE045285434056EA82A9006C" : "",
+    "DDFBC8B61339B06342A6A8CCD47BA1E522C2C2B8" : "react-native-browser",
+    "AAE062EBF8472505FDB90B44DEE782F629380A0F" : "react-native-browserTOWebViewController"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RCTBrowser",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "RCTBrowser.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "bitbucket.org:mfkp\/iprestodoctor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "47CC29125B073564CE045285434056EA82A9006C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:TimOliver\/TOWebViewController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AAE062EBF8472505FDB90B44DEE782F629380A0F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/PrestoDoctor\/react-native-browser.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DDFBC8B61339B06342A6A8CCD47BA1E522C2C2B8"
+    }
+  ]
+}

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2717C3F81D2AF11200090B76 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 2717C3F51D2AF11200090B76 /* NJKWebViewProgress.m */; };
+		2717C3F91D2AF11200090B76 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2717C3F71D2AF11200090B76 /* NJKWebViewProgressView.m */; };
 		2791E7F61BB3C10A00FD32EA /* libRCTBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2791E7EA1BB3C10A00FD32EA /* libRCTBrowser.a */; };
 		2791E8321BB3C5FF00FD32EA /* TOActivityChrome.m in Sources */ = {isa = PBXBuildFile; fileRef = 2791E8281BB3C5FF00FD32EA /* TOActivityChrome.m */; };
 		2791E8331BB3C5FF00FD32EA /* TOActivitySafari.m in Sources */ = {isa = PBXBuildFile; fileRef = 2791E82A1BB3C5FF00FD32EA /* TOActivitySafari.m */; };
@@ -38,6 +40,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2717C3F41D2AF11200090B76 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		2717C3F51D2AF11200090B76 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		2717C3F61D2AF11200090B76 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		2717C3F71D2AF11200090B76 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
 		2791E7EA1BB3C10A00FD32EA /* libRCTBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTBrowser.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2791E7F51BB3C10A00FD32EA /* RCTBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RCTBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2791E81F1BB3C5FF00FD32EA /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/TOWebViewControllerLocalizable.strings; sourceTree = "<group>"; };
@@ -82,6 +88,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2717C3F31D2AF11200090B76 /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				2717C3F41D2AF11200090B76 /* NJKWebViewProgress.h */,
+				2717C3F51D2AF11200090B76 /* NJKWebViewProgress.m */,
+				2717C3F61D2AF11200090B76 /* NJKWebViewProgressView.h */,
+				2717C3F71D2AF11200090B76 /* NJKWebViewProgressView.m */,
+			);
+			path = NJKWebViewProgress;
+			sourceTree = "<group>";
+		};
 		2791E7E11BB3C10A00FD32EA = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +121,7 @@
 		2791E81D1BB3C5FF00FD32EA /* TOWebViewController */ = {
 			isa = PBXGroup;
 			children = (
+				2717C3F31D2AF11200090B76 /* NJKWebViewProgress */,
 				2791E81E1BB3C5FF00FD32EA /* TOWebViewControllerLocalizable.strings */,
 				2791E8271BB3C5FF00FD32EA /* TOActivityChrome.h */,
 				2791E8281BB3C5FF00FD32EA /* TOActivityChrome.m */,
@@ -218,8 +236,10 @@
 			files = (
 				2791E8341BB3C5FF00FD32EA /* TOWebViewController.m in Sources */,
 				2791E8351BB3C5FF00FD32EA /* UIImage+TOWebViewControllerIcons.m in Sources */,
+				2717C3F91D2AF11200090B76 /* NJKWebViewProgressView.m in Sources */,
 				2791E8321BB3C5FF00FD32EA /* TOActivityChrome.m in Sources */,
 				2791E8381BB3C60D00FD32EA /* RCTBrowser.m in Sources */,
+				2717C3F81D2AF11200090B76 /* NJKWebViewProgress.m in Sources */,
 				2791E8331BB3C5FF00FD32EA /* TOActivitySafari.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
