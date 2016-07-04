@@ -4,12 +4,9 @@
  */
 'use strict';
 
-var React = require('react-native');
-var {
-  NativeModules: {
-    Browser,
-  },
-} = React;
+import React from 'react';
+import { NativeModules } from 'react-native';
+var Browser = NativeModules.Browser;
 
 var RCTBrowserExport = {
   open: function(url, options={}) {
