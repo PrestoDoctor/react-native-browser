@@ -1,6 +1,8 @@
 # react-native-browser
 A full-featured web browser module for React Native apps, based on the awesome [TOWebViewController](https://github.com/TimOliver/TOWebViewController)
 
+Currently supports react-native versions between v0.14 and v0.25.1 (([v0.26](https://github.com/facebook/react-native/releases/tag/v0.26.0)) introduces a breaking change).
+
 ![TOWebViewController](screenshot.jpg)
 
 ### Installation
@@ -48,6 +50,7 @@ Browser.open('https://google.com/', {
 
 ### TODOs
 
+- [ ] Fix compatibility with v0.26+ ([changelog](https://github.com/facebook/react-native/releases/tag/v0.26.0))
 - [ ] Finish adding all customization options / support callbacks
 - [ ] Accessors for webview & url requests
 - [ ] Programatic control of loading pages, closing the view, etc
