@@ -16,6 +16,10 @@ A full-featured web browser module for React Native apps, based on the awesome [
 Example:
 
 ```
+import {
+  processColor, // make sure to add processColor to your imports if you want to use hex colors as shown below
+} from 'react-native';
+
 // at the top of your file near the other imports
 var Browser = require('react-native-browser');
 
@@ -26,7 +30,7 @@ var Browser = require('react-native-browser');
 Browser.open('https://google.com/');
 
 // OR pass in options to customize
-Browser.open('http://google.com/', {
+Browser.open('https://google.com/', {
                     showUrlWhileLoading: true,
                     loadingBarTintColor: processColor('#d64bbd'),
                     navigationButtonsHidden: false,
