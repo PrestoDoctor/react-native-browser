@@ -45,6 +45,23 @@ RCT_EXPORT_METHOD(presentUrl:(NSString *)url withOptions:(NSDictionary *)options
     UIViewController *rootVC = [[UIApplication sharedApplication] keyWindow].rootViewController;
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:webVC];
 
+    [options enumerateKeysAndObjectsUsingBlock:^(NSString* key, id obj, BOOL *stop) {
+            if ([key isEqualToString:@"barTintColor"]) {
+                UIColor *color = [RCTConvert UIColor:obj];
+
+                nav.navigationBar.barTintColor = color;
+                nav.toolbar.barTintColor = color;
+            } else if ([key isEqualToString:@"titleTintColor"]) {
+               UIColor *color = [RCTConvert UIColor:obj];
+
+               nav.navigationBar.tintColor = color;
+               nav.toolbar.tintColor = color;
+
+               [nav.navigationBar setTitleTextAttributes:
+                  @{NSForegroundColorAttributeName:color}];
+           }
+        }];
+
     dispatch_async(dispatch_get_main_queue(), ^{
         [rootVC presentViewController:nav animated:YES completion: nil];
     });
