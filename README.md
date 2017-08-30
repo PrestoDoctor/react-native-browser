@@ -40,7 +40,9 @@ Browser.open('https://google.com/', {
                     showPageTitles: true,
                     disableContextualPopupMenu: false,
                     hideWebViewBoundaries: false,
-                    buttonTintColor: processColor('#d64bbd')
+                    buttonTintColor: processColor('#d64bbd'),
+                    titleTintColor: processColor('#d64bbd'),
+                    barTintColor: processColor('#d64bbd')
                   });
 ```
 
